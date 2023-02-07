@@ -20,7 +20,8 @@ find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-        "msg/RGBCameraData.msg"
+        "msg/CameraData.msg"
+        "msg/YoloDetection.msg"
         DEPENDENCIES std_msgs sensor_msgs
         )
 
