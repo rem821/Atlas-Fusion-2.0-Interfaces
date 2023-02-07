@@ -1,4 +1,8 @@
 .idea/
+cmake-build-debug/
+cmake-build-release/
+install/
+log/
 
 devel/
 logs/
