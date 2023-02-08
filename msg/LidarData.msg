@@ -1,0 +1,4 @@
+sensor_msgs/PointCloud2 point_cloud
+uint64 timestamp
+uint64 inner_timestamp
+uint8 lidar_identifier
