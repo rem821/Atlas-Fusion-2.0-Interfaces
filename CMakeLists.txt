@@ -16,6 +16,7 @@ find_package(ament_cmake REQUIRED)
 
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 find_package(rosidl_default_generators REQUIRED)
 
@@ -23,7 +24,16 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/CameraData.msg"
         "msg/LidarData.msg"
         "msg/YoloDetection.msg"
-        DEPENDENCIES std_msgs sensor_msgs
+        "msg/ImuDquatData.msg"
+        "msg/ImuGnssData.msg"
+        "msg/ImuImuData.msg"
+        "msg/ImuMagData.msg"
+        "msg/ImuPressureData.msg"
+        "msg/ImuTempData.msg"
+        "msg/ImuTimeData.msg"
+        "msg/GnssPositionData.msg"
+        "msg/GnssTimeData.msg"
+        DEPENDENCIES std_msgs sensor_msgs geometry_msgs
         )
 
 ament_export_dependencies(rosidl_default_runtime)

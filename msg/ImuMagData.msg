@@ -1,0 +1,2 @@
+geometry_msgs/Vector3 mag
+uint64 timestamp
