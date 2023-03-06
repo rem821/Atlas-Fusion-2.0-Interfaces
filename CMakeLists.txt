@@ -33,6 +33,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/ImuTimeData.msg"
         "msg/GnssPositionData.msg"
         "msg/GnssTimeData.msg"
+        "msg/RadarDetection.msg"
+        "msg/RadarData.msg"
         DEPENDENCIES std_msgs sensor_msgs geometry_msgs
         )
 

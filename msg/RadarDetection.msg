@@ -1,0 +1,2 @@
+geometry_msgs/Point32 pose
+float32 velocity
