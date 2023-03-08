@@ -22,7 +22,6 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/CameraData.msg"
-        "msg/LidarData.msg"
         "msg/YoloDetection.msg"
         "msg/ImuDquatData.msg"
         "msg/ImuGnssData.msg"
@@ -35,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/GnssTimeData.msg"
         "msg/RadarDetection.msg"
         "msg/RadarData.msg"
+        "srv/EstimatePositionInTime.srv"
         DEPENDENCIES std_msgs sensor_msgs geometry_msgs
         )
 

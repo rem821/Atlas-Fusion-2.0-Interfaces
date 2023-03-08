@@ -1,7 +1,4 @@
 sensor_msgs/Image image
-uint64 timestamp
-uint64 inner_timestamp
-uint8 camera_identifier
 float32 min_temperature
 float32 max_temperature
 YoloDetection[] yolo_detections

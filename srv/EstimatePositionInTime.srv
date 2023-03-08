@@ -1,0 +1,8 @@
+uint64 timestamp
+---
+geometry_msgs/Vector3 position_now
+geometry_msgs/Quaternion orientation_now
+uint64 timestamp_now
+geometry_msgs/Vector3 position_before
+geometry_msgs/Quaternion orientation_before
+uint64 timestamp_before
